@@ -3,6 +3,6 @@
 # Sign In
 [![Signin Form](https://github.com/orientalArg/mail-forms/blob/main/Sign-In.jpeg)](https://github.com/orientalArg/mail-forms/blob/main/Sign-In.jpeg)
 # Sign up
-[![Signup Form](https://github.com/orientalArg/mail-forms/blob/main/Sing-up.jpeg)](https://github.com/orientalArg/mail-forms/blob/main/Sign-up.jpeg)
+[![Signup Form](https://github.com/orientalArg/mail-forms/blob/main/Sign-up.jpeg)](https://github.com/orientalArg/mail-forms/blob/main/Sign-up.jpeg)
 # Label Form
 [![Label Form](https://github.com/orientalArg/mail-forms/blob/main/Label.jpeg)](https://github.com/orientalArg/mail-forms/blob/main/Label.jpeg)
