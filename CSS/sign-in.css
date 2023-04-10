@@ -1,0 +1,134 @@
+html {
+    scale: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: hsl(360, 100%, 90%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: 2px solid rgb(255, 0, 98);
+}
+
+::selection {
+    color: white;
+    background: rgb(255, 0, 98);
+}
+
+.form {
+    margin:auto;
+    margin-top: 3rem;
+    width: fit-content;
+    height: 480px;
+    display: flex;
+    background: hsl(0, 10%, 94%);
+    box-shadow: 3px 4px 6px 0px #969696;
+}
+
+/* .form .image {} */
+
+.form .image img {
+    width: auto;
+    height: 480px;
+}
+
+.form .content {
+    gap: 22px;
+    width: fit-content;
+    height: 100%;
+    padding: 30px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .content .btn--close {
+    width: 100%;
+    display: grid;
+    justify-content: right;
+}
+
+
+.form .content .btn--close button {
+    width: 33px;
+    background: none;
+    font-weight: 700;
+    border: solid 2px hsl(0, 8%, 80%);
+}
+
+.form .content .paragraph {
+    width: 280px;
+    margin: 22px 0;
+}
+
+.form .content .paragraph span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form .content .user-data{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .content input {
+    height: 33px;
+    width: 280px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.form .content input::placeholder {
+    font-weight: 500;
+}
+
+.form .content .bottom-btn {
+    width: 280px;
+    margin: 22px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .content .bottom-btn input,
+button {
+    width: 47%;
+    height: 33px;
+    cursor: pointer;
+}
+
+
+#btn--cancel {
+    background: none;
+    border: solid 3px hsl(0, 8%, 80%);
+}
+
+#submit {
+    padding-left: 0;
+    font-weight: 700;
+    background: hsl(0, 8%, 80%);
+}
+
+/* #submit:focus {} */
+
+.form .content span {
+    width: 100%;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.form .content span a{
+    color: gray;
+    text-decoration: none;
+}
+
+.form .content span a:hover{
+    text-decoration: underline;
+}
